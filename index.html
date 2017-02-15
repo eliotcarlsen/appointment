@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script = src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Appointment Bookings with Rob</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h3>Appointment Bookings</h3>
+      <h6>Please fill out the form to complete your booking.  You will receive confirmation when you are done.</h6>
+      <form class="appointment">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" class="form-control" type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description of Malady:</label>
+          <input id="description" class="form-control" type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Choose a Date:</label>
+          <input id="date" class="form-control" type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="startTime">Start Time:</label>
+          <input id="startTime" class="form-control" type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="endTime">End Time:</label>
+          <input id="endTime" class="form-control" type="text" required>
+        </div>
+        <button type="submit" class="btn">Click Here</button>
+      </form>
+
+      <div class="confirmation">
+        <h3>Your Appointment Has Been Confirmed!</h3>
+        <ul>
+          <li>Name: <span class="userName"></span></li>
+          <li>Appointment Description: <span class="appDescription"></span></li>
+          <li>Appointment Date: <span class="appDate"></span></li>
+          <li>Start Time: <span class="appStart"></span></li>
+          <li>End Time: <span class="appEnd"></span></li>
+        </ul>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </body>
+</html>
